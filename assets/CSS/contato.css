@@ -1,0 +1,95 @@
+
+
+body {
+    width: 95%;
+    margin: auto;
+    background-image: linear-gradient(-225deg, #a21859 0%, #c1f4f7d5 100%);
+    background-image: linear-gradient(to top,  #993f6c 0%, #f0f9fcd5 100%);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1, 5;
+    color: rgb(0, 0, 0);
+    font-size: 19px;
+    text-align: center;
+}
+
+h3 {
+    padding: 20px 20px;
+    font-size: 28px;
+}
+
+main {
+    background-image: linear-gradient(-225deg, #045ee40c 50%, #ffe6fa7a 50%);
+    padding: 10px 80px;
+    margin: 20px 135px;
+    border-radius: 10px;
+}
+
+.nome {
+    text-align: center;
+    font-style: italic;
+    font-size: 80px;
+    color: rgb(198, 37, 131);
+    font-family: 'Updock', cursive;
+
+}
+
+.logo {
+    text-align: center;
+}
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+nav li {
+    display: inline;
+    margin: 0 25px 0 17px;
+
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #089dca;
+    text-decoration: underline;
+
+}
+form { 
+    margin: 40px 0;
+}
+
+fieldset{
+    border: 0;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+.input-padrao {
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 30%;
+}
+.imagem-rodape {
+    width: 12%;
+    opacity: 1;
+    transition: 400ms;
+
+}
+
+.imagem-rodape:hover {
+    opacity: 0.6;
+}
+
